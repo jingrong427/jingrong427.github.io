@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<title>JRL_b09901150 </title>
- 
+<title>Jing_Rong</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
+<audio controls autoplay loop>
+  <source src="eggplant.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
 <style>
 * {
   box-sizing: border-box;
@@ -13,7 +15,9 @@
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:copperplate;
+  font-weight:300%;
+  Background-color:lightblue;
 }
 
 /* Style the side navigation */
@@ -40,7 +44,7 @@ body {
 /* Change color on hover */
 .sidenav a:hover {
   background-color: #ddd;
-  color: tomato;
+  color:red
 }
 
 /* Style the content */
@@ -49,8 +53,6 @@ body {
   padding-left: 20px;
 }
 </style>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
 </head>
 <body>
 
@@ -64,38 +66,20 @@ body {
 </div>
 
 <div class="content">
- 
-  <audio  controls autoplay loop>
-   
-    <source src="eggplant.mp3" type="audio/mpeg"/>
-</audio>
-  <h1 style="font-family:veranda;">Jing Rong's Secret Garden</h1>
-  <h2 style="font-family:Arial;">About ME!</h2>
-  <p style="font-family:courier;">I graduated from Taipei First Girl High School(See the links on the sidebar), which is known as TFG, in 2020. I am now studying in NTUEE,the department of Electrical Engineering in NTU.</p>
-  <h2 style="font-family:Arial;">My hobbies</h2>
-  <p style="font-family:courier;"> I have been playing badminton on Saturdays since I was 8 years old. I was also once the member of the school badminton team, but I quit due to the heavy loading of my schoolwork.And,of course,I watch NETFLIX in my free time just like everyone else. I also enjoy listening to music with my Spotify account.
-  <p id="datetime"></p>
+  <audio controls autoplay loop>
+  <source src="eggplant.mp3" type ="audio/mpeg"/>
+  </audio>
 
-<i class="far fa-copyright"></i>
+  <h1 style="text-align: center;">Jing Rong's Secret Garden</h1>
+  <h2 >About ME!</h2>
+  <p style="font-family:courier;">I graduated from Taipei First Girl High School(See the    links on the sidebar), which is known as TFG, in 2020. I am now studying in NTUEE,the  department of Electrical Engineering in NTU.</p>
+  <h2 >My hobbies</h2>
+  <p style="font-family:courier;"> I play badminton every Saturday since I was 8 years old. And,of course,I watch NETFLIX in my free time just like everyone else. I also enjoy listening to music with my Spotify account.</p>
 
-<script>
-function display_time() {
-   var dt = new Date();
-   document.getElementById("datetime").innerHTML = (dt.getMonth()+1) +"-"+ ("0"+dt.getDate()).slice(-2)+"-"+dt.getFullYear()+" "+ ("0"+dt.getHours()).slice(-2) +":"+ ("0"+dt.getMinutes()).slice(-2)+":"+("0"+dt.getSeconds()).slice(-2);
+  <img src="volleyball.png" alt="oooops volleyball" width="300" height="500" style="float:left">
 
-}
-setInterval(display_time,1000);
-</script>
-  <style>
-body {
-  background-color:peachpuff;
-}
- 
-</style>
-    <img src="volleyball.png "alt="volleyball" width="300" height="500" style="float:left">
-    
+
 </div>
 
 </body>
-</html>
-
+</html>e
